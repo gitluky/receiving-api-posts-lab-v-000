@@ -21,7 +21,6 @@
 <script type="text/javascript" charset="utf-8">
   $(function () {
     $("form").submit(function (e) {
-      debugger;
       e.preventDefault();
       var values = $(this).serialize();
       var post_product = $.post("/products", values)
