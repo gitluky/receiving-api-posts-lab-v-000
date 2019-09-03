@@ -25,7 +25,7 @@
       var values = $(this).serialize();
       var post_product = $.post("/products", values)
       post_product.done(function(data) {
-        var product = data;
+        var product = JSON(data);
         $(".product_name").text(product["name"]);
         $(".product_price").text(product["price");
         $(".product_description").text(product["description"]);
