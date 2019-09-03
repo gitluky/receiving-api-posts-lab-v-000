@@ -2009,3 +2009,7 @@ Cannot render console from 72.69.13.97! Allowed networks: 127.0.0.1, ::1, 127.0.
   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by ProductsController#new as HTML
   Rendering products/new.html.erb within layouts/application
+  Rendered products/new.html.erb within layouts/application (1098.4ms)
+Completed 200 OK in 1382ms (Views: 1367.3ms | ActiveRecord: 1.0ms)
+
+
