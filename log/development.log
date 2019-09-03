@@ -1984,3 +1984,11 @@ Processing by ProductsController#create as HTML
 Completed 201 Created in 9ms (Views: 3.0ms | ActiveRecord: 3.3ms)
 
 
+Started GET "/products/new" for 72.69.13.97 at 2019-09-03 17:13:57 +0000
+Cannot render console from 72.69.13.97! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/new.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 49ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
